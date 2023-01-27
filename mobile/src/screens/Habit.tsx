@@ -8,7 +8,7 @@ import { api } from "../lib/axios";
 import { generateProgressPercentage } from "../utils/generate-progress-percentage";
 
 import { BackButton } from "../components/BackButton";
-import { ProgressBar } from "../components/progressBar";
+import { ProgressBar } from "../components/Progress.Bar";
 import { Checkbox } from "../components/Checkbox";
 import { Loading } from "../components/Loading";
 import { HabitsEmpty } from "../components/HabitsEmpty";

@@ -1,20 +1,18 @@
-const { GridFour } = require('phosphor-react');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './src/**/*.tsx',
-    './index.html',
+    './index.html'
   ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         background: '#09090A'
       },
 
       gridTemplateRows: {
-        7: 'repeat(7, minmax(0, 1fr))'
-      },
+        7: 'repeat(7, minmax(0, 1fr))',
+      }
     },
   },
   plugins: [],

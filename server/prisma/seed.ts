@@ -97,7 +97,7 @@ async function run() {
         }
       }
     }),
-    
+
     /**
      * Habits (Complete/Available): 2/2
      */
